@@ -52,4 +52,15 @@ this.driver =idriver;
        actions.build().perform(); actions.click();
 		
 	}
+	public void Shareanupdate(String Post) {
+		shuptd.click();
+		pst.sendKeys(Post);
+		tg.click();
+	   Actions actions = new Actions(driver);
+        WebElement tag=driver.findElement(By.xpath("//ul[contains(@class,'select2-choices')]"));
+       actions.moveToElement(tag);actions.click();actions.sendKeys("Horticulture");
+       actions.build().perform(); actions.click();
+		
+	}
+
 }
