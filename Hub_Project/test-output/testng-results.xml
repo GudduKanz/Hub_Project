@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-31T13:07:33Z" name="Default suite" finished-at="2019-07-31T13:08:12Z" duration-ms="38860">
+    <groups>
+    </groups>
+    <test started-at="2019-07-31T13:07:33Z" name="Default test" finished-at="2019-07-31T13:08:12Z" duration-ms="38860">
+      <class name="TestNG_Files.TestScript">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_Files.TestScript@58d75e99]" started-at="2019-07-31T13:07:33Z" name="beforeMethod" finished-at="2019-07-31T13:07:47Z" duration-ms="13864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Signin(java.lang.String, java.lang.String)[pri:0, instance:TestNG_Files.TestScript@58d75e99]" started-at="2019-07-31T13:07:48Z" name="Signin" data-provider="Test" finished-at="2019-07-31T13:08:07Z" duration-ms="18556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ioanasala-setiu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Trd@sm21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestNG_Files.TestScript@58d75e99]" started-at="2019-07-31T13:08:07Z" name="afterMethod" finished-at="2019-07-31T13:08:07Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Signin status=SUCCESS method=TestScript.Signin(java.lang.String, java.lang.String)[pri:0, instance:TestNG_Files.TestScript@58d75e99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="Share()[pri:1, instance:TestNG_Files.TestScript@58d75e99]" started-at="2019-07-31T13:08:07Z" name="Share" finished-at="2019-07-31T13:08:12Z" duration-ms="4744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Share -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:TestNG_Files.TestScript@58d75e99]" started-at="2019-07-31T13:08:12Z" name="endReport" finished-at="2019-07-31T13:08:12Z" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestNG_Files.TestScript@58d75e99]" started-at="2019-07-31T13:08:12Z" name="afterMethod" finished-at="2019-07-31T13:08:12Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Share status=SUCCESS method=TestScript.Share()[pri:1, instance:TestNG_Files.TestScript@58d75e99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNG_Files.TestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

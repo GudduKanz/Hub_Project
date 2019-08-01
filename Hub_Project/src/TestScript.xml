@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test" value="chrome">
+    <classes>
+      <class name="TestNG_Files.TestScript"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
